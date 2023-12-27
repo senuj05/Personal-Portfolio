@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name ="viewport" content="width=device-width", initial-scal="1.0">
+        <meta charset="UTF-8">
+        <title> Personal Portfolio | Senuvi Jayasinghe </title>
+        <style>
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel=" stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!------------------header----------------------->
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="menu">
+                <li><a href= "#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about"onclick="toggleMenu();">About</a></li>
+                <li><a href="#work"onclick="toggleMenu();">Work</a></li>
+                <li><a href="#contact"onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </header>
+        <!----------------------------------------->
+        <section class= "banner" id="home"> 
+            <div class="textBx">
+                <h2> Hello, I'm<br><span>Senuvi Jayasinghe.</span></h2>
+                <h3>I am a Softwear Developer.</h3>
+                <a href="#about" class="btn">About Me</a>
+            </div>
+        </section>
+        <!------------------about----------------------->
+        <section class="about" id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+                <p>------------------------------------------</p>
+            </div>
+            <div class="content">
+                <div class="contentBox w50">
+                    <h3> I'm a Developer based in Washington DC- Baltimore area.</h3>
+                    <p>
+                        <br><br>
+                        I am a passionate and highly motivated computer science student with a strong background in web development, data
+                        science, and software engineering.
+                        <br><br>
+                        I am skilled in a variety of programming languages and software tools. I am currently a student at the University of Illinois Urbana-Champaign, where I am pursuing a Bachelor of Computer
+                        Science and Statistics degree.
+                        <br><br>
+                        I am eager to apply my skills and experience to a challenging and rewarding position in the tech industry. I am
+                        confident that I have the skills and knowledge to make a significant contribution to your team.
+                        <br><br>
+                    </p>
+                </div>
+                <div class= "w50">
+                    <img src="builld.jpg" class="img">              
+                </div>
+            </div>
+        </section>
+        <!---------------work-------------------------->
+        <section class="Work" id="work"></section>
+            <div class="heading">
+                <h2> My Projects</h2>
+                <p>------------------------------------------</p>
+            </div>
+
+            <div id="grid">
+
+                <div>
+                    <i class="fa fa-mobile-phone"></i>
+                    <h3>RE- FABRIC APP</h3>
+                    <br></br>
+                    <p>“Re-FABric” is an app designed to encourage sustainable decision-making by helping users learn how to upcycle and
+                    recycle old clothing with suggestions catered to the items in their closet!
+                    My main contribution to this group project was contribution to the app's user interface. We used Figma to create wireframe and prototypes the app. 
+                    </p>
+                    <br></br>
+                    <a href="https://devpost.com/software/re-fabric-fashionably-sustainable" class="GFG">
+                        Click Here to View More Info.
+                    </a>
+                    <br></br>
+                   
+                </div>
+
+                <div>
+                    <i class="fa fa-laptop"></i>
+                    <h3>PERSONAL PORTFOLIO</h3>
+                    <br></br>
+                    <p>This personal responsive portfolio is a simple and elegant website that showcases my skills and experience in HTML and CSS. The design is clean and modern, and the content is well-organized.
+                    The website is easy to navigate and use, and it is a great way to show off my work. I am proud of this project, and I believe it is a strong reflection of my skills and abilities.
+                    </p>
+                    <br></br>
+                    <br></br>
+                    
+                </div>
+
+                <div>
+                    <i class="fa fa-camera"></i>
+                    <h3>PHOTOGRAPHY</h3>
+                    <br></br>
+                    <p> This showcases my skills and experience in a variety of genres, including portraiture, landscape, and street photography. My work includes a mix of both color and black-and-white images, and it is designed to be visually appealing and engaging.I hope you enjoy viewing my work!
+                    </p>
+                    <br></br>
+                    <a href="https://vsco.co/senu31/gallery" class="GFG">
+                        Click Here to View My Work.
+                    </a>
+                    
+                
+                </div>
+
+                
+            </div>
+
+                
+        <!---------------Contact-------------------------->
+
+        <section class= "Contact" id="contact">
+            <div class="heading">
+                <h2>Contact Me</h2>
+                <p>------------------------------------------</p>
+                <p>POP ME AN MESSAGE TO GET IN TOUCH</p>
+            </div>
+
+            <div class="content">
+                <div class="contactInfo">
+                    <h3>Contact Info</h3>
+                    <div class="contactInfoBox">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>22533 Maison Carree Square,<br>Ashburn, Virginia, <br>20148</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>+1 571 999 2198</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>senuvividara@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="formBox">
+                    <form>
+                        <h3> Message Me </h3>
+                        <input type="text" name="" placeholder="Full Name">
+                        <input type="email" name="" placeholder="Email">
+                        <textarea placeholder="Your Message"></textarea>
+                        <input type="Submit" value="Send">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!---------------------------------------------->
+
+        <div class="copyright">
+            <p>&copy; 2023 SENUVI JAYASINGHE. ALL RIGHTS RESERVED</p>
+        </div>
+
+         <!---------------------------------------------->
+        <script type="text/javascript">
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+            });
+
+            function toggleMenu()
+            {
+                var menuToggle= document.querySelector('.toggle');
+                var menu = document.querySelector('.menu');
+                menuToggle. classList.toggle('active')
+                menu.classList.toggle('active')
+            }
+
+            
+        </script>
+    </body>
+</html>
